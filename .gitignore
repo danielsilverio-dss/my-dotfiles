@@ -1,0 +1,11 @@
+/**
+
+!.gitignore
+
+!bin/
+!bin/**
+
+!scripts/
+!scripts/**
+
+!.my_bash_aliases

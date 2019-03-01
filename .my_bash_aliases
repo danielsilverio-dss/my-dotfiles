@@ -1,0 +1,9 @@
+######
+# My Aliases
+#####
+
+alias mvn-cpi="mvn clean package install"
+alias doc="cd ~/Documentos"
+alias dl="cd ~/Downloads"
+alias l="ls -la"
+alias lst="ls -lat"
