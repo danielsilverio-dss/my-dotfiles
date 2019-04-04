@@ -9,3 +9,9 @@
 !scripts/**
 
 !.my_bash_aliases
+
+!.config/
+!.config/**
+!.config/my-config-files/
+!.config/my-config-files/i3/
+!.config/my-config-files/i3/**
