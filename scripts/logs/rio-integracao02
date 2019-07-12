@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sshpass -p Met@S!x ssh metasix@mtenancy-integracao02 "cd /etc/cube/rio1746/integracao-ws && docker-compose logs -f --tail=1000"

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+COMMIT=$1
+
+git diff $COMMIT~ $COMMIT

@@ -1,0 +1,6 @@
+#!/bin/sh
+echo "REQUEST_HOST: $REQUEST_HOST"
+curl -i -X GET \
+   -H "Content-Type:application/json" \
+   -H "Authorization:Token 7Hmc_WuPoZ-sEiaM1xxbGrqbbK3qD5qX2DSgXUl6erRkWZ20P-lPZefQs2Z5Y4KDgSiBykHas18U72U-S11WEczYw7hbzWzEj3jwF7rRH5E=" \
+ "$REQUEST_HOST/api/municipe/protocolos?cpf=71461060710&nome=AMARO+HENRIQUE+DOS+SANTOS&email=leandro.ferreira%40datametrica.com.br&trazerPrechamados=false"

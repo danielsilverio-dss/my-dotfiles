@@ -1,0 +1,4 @@
+#!/bin/sh
+curl -i -X GET \
+-H "Origin: null" --verbose \
+ 'https://h-pmsp.metasix.solutions/integracao/api/v1/smgi-cet/cruzamentos?codIdentificadorLogradouro=17991'

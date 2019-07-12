@@ -1,0 +1,18 @@
+curl -i -X POST \
+-H "Content-Type:application/json" \
+-H "Authorization:Token m0AD3wYe-6fMx0CgOZ3dZVnlGjuyg7dH3OgoPHXhBvXQL8vXJ0uF413gsj6hoKmdRe3dbTTxTNMTV5ntOeuobnnu60GlFVrTnIewnCUBCuw=" \
+-d \
+'{
+"derivar": false,
+"descricao": "teste",
+"idMeioComunicacao": 6,
+"idPessoa": 4,
+"idsNavegacao": "8,18",
+"idTipoSolicitacao": 8,
+"importante": false,
+"prazoAlterado": false,
+"recategorizada": false,
+"sigilo": false,
+"statusSolicitacao":0
+}' \
+'http://rio1746-dev.minecraft.tenant.metasix.com.br/resolucao-ws/solicitacoes'

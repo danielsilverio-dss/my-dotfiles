@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sshpass -p Met@S!x ssh metasix@mtenancy-cube05 "cd /etc/cube/ && docker-compose logs -f --tail=1000 cube"

@@ -1,0 +1,7 @@
+#!/bin/sh
+curl -i -X GET \
+   -H "Content-Type:application/json" \
+   -H "Authorization:Token 7Hmc_WuPoZ-sEiaM1xxbGrqbbK3qD5qX2DSgXUl6erRkWZ20P-lPZefQs2Z5Y4KDgSiBykHas18U72U-S11WEczYw7hbzWzEj3jwF7rRH5E=" \
+   -H "Origin: null" --verbose \
+ 'https://h-pmsp.metasix.solutions/integracao/api/v1/localidade/logradouros?latitude=-23.5268329&longitude=-46.4608244'
+# 'https://h-pmsp.metasix.solutions/integracao/api/v1/localidade/logradouros?latitude=-23&longitude=5570315' 

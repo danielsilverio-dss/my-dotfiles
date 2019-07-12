@@ -1,0 +1,4 @@
+#!/bin/sh
+
+curl -i -X GET \
+ 'http://localhost:8081/ipp/rio/logradouros/filter?logradouro=Rua+Ati&bairro=Tanque'

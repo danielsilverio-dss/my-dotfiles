@@ -1,0 +1,7 @@
+#!/bin/sh
+PROTOCOLO_SOLICITACAO="RIO-9643992-0"
+echo "REQUEST_HOST: $REQUEST_HOST"
+curl -i -X GET \
+   -H "Content-Type:application/json" \
+   -H "Authorization:Token 7Hmc_WuPoZ-sEiaM1xxbGrqbbK3qD5qX2DSgXUl6erRkWZ20P-lPZefQs2Z5Y4KDgSiBykHas18U72U-S11WEczYw7hbzWzEj3jwF7rRH5E=" \
+ "$REQUEST_HOST/api/mobile/chamado/detalhes/protocolo?protocolo=$PROTOCOLO_SOLICITACAO&isReclamacao=0"

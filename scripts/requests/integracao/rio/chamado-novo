@@ -1,0 +1,21 @@
+curl -i -X POST \
+   -H "Content-Type:application/json" \
+   -d \
+'{
+	"token": "t0d0!ws_p0rt@lweb",
+	"codigoClassificacao": "3097",
+	"dataHora": "2019-06-03T18:58:13.923+0000",
+	"descricao": "teste - [Limpeza de praça] - ",
+	"solicitantePortalWeb": {},
+	"endereco": {
+		"logradouro": "Rua Ati",
+		"numero": "191",
+		"bairro": "Tanque",
+		"complemento": "Nao Informado",
+		"eixoX": "-22.922493",
+		"eixoY": "-43.358707"
+	},
+	"codigoOrigemOcorrencia": 13,
+	"dataAtendimento": "2019-06-03T18:58:13.923+0000"
+}' \
+ "$REQUEST_HOST/api/chamado/novo"

@@ -1,0 +1,4 @@
+#!/bin/sh
+curl -i -X GET \
+ -H "Origin: http://example.com" --verbose \
+ 'https://h-pmsp.metasix.solutions/integracao/api/v1/cet/sentidos/17991'

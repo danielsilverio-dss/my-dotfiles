@@ -1,0 +1,5 @@
+#!/bin/sh
+#feh --bg-fill ~/Imagens/wallpaper/black-sails-16.jpg
+vivaldi-stable --new-window https://chat.metasix.solutions/group/alpha-squad https://trello.com/danielsilverio4/boards https://projetos.metasix.solutions/my/page https://sgd.metasix.solutions/resolucao-web/solicitacoes/recebidas https://toggl.com/app/timer
+terminator -x vim ~/scripts/deploy-and-start-current-project.sh
+current-quest
