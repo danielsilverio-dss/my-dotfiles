@@ -44,6 +44,9 @@ exec --no-startup-id feh --bg-fill ~/Pictures/wallpaper/beautiful-green-plant.jp
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
+# circle wallpapers
+bindsym Mod4+Shift+w exec circle-wallpapers
+
 # bloquear tela
 bindsym Mod4+b exec i3lock -i ~/.config/screensaver/black-sails-01.png
 
