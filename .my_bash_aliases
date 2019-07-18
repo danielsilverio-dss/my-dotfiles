@@ -13,5 +13,6 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias logs="cd ~/scripts/logs"
 alias logs-wildfly="cd /home/daniel/Dev/lib/wildfly-10.1.0.Final/standalone/log && tail -f -n 500 server.log"
+alias copy-to-clipboard="xclip -sel clip <"
 
 alias gr="cd ~/git/resolucao-ws"
