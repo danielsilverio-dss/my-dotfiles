@@ -1,0 +1,13 @@
+#!/bin/sh
+
+. ~/env/wildfly-configuration.sh
+
+#resolucao-web
+#resolucao-cli
+cd ~/git/resolucao-cli/ && mvn clean package install
+#resolucao-ws
+cd ~/git/resolucao-ws/ && mvn clean package install && cp ~/git/resolucao-ws/target/resolucao-ws.war $WILDFLY_DEPLOYMENTS
+#atendimento-web
+cd ~/git/atendimento-web/ && mvn clean package install && cp ~/git/atendimento-web/target/atendimento-web.war $WILDFLY_DEPLOYMENTS
+#seguranca-ws
+cd ~/git/seguranca-ws/ && mvn clean package install && cp ~/git/seguranca-ws/target/seguranca-ws.war $WILDFLY_DEPLOYMENTS

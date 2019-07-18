@@ -1,5 +1,7 @@
 #!/bin/sh
 
-cd ~/Dev/lib/wildfly-10.1.0.Final/standalone/deployments \
+. ~/env/wildfly-configuration.sh
+
+cd $WILDFLY_DEPLOYMENTS \
 && rm -rf *.war* \
-&& cd ~/Dev/lib/wildfly-10.1.0.Final/standalone/ && rm -rf tmp/
+&& cd $WILDFLY_HOME/standalone/ && rm -rf tmp/

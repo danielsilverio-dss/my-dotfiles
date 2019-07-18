@@ -1,5 +1,5 @@
 #!/bin/sh
-cd ~/Pictures/wallpaper/
+cd ~/imagens/wallpaper/
 
 CURRENT_WALLPAPER=$(cat ~/scripts/circle-wallpapers/current-wallpaper)
 

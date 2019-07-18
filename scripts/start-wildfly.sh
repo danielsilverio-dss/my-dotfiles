@@ -1,6 +1,8 @@
 #!/bin/sh
 
+. ~/env/wildfly-configuration.sh
+
 STANDALONE=$1
 
-cd ~/Dev/lib/wildfly-10.1.0.Final/bin/ \
-&& ./standalone.sh --debug -c $STANDALONE 
+cd $WILDFLY_HOME/bin/ \
+&& ./standalone.sh --debug localhost:8787 -c $STANDALONE 
