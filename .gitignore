@@ -8,9 +8,6 @@
 !scripts/
 !scripts/**
 
-!env/
-!env/**
-
 !.my_bash_aliases
 
 !.config/
