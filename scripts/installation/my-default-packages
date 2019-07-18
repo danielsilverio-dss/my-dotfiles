@@ -10,6 +10,7 @@ sudo apt-get install openjdk-8-jdk
 sudo apt-get install maven
 sudo apt-get install xclip
 sudo apt-get install curl
-sudo apt install arandr
+sudo apt-get install arandr
+sudo apt-get install htop
 
 sudo snap install spotify
