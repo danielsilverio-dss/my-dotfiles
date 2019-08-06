@@ -2,6 +2,6 @@
 
 # . ~/env/multi-tenancy-troquetinho.sh
 
-. ./wildfly-deploy-wars
+. wildfly-deploy-wars
 
 start-wildfly standalone.mtenancy-dev.troquetinho.xml

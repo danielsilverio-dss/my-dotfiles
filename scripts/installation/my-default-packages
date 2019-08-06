@@ -12,5 +12,6 @@ sudo apt-get install xclip
 sudo apt-get install curl
 sudo apt-get install arandr
 sudo apt-get install htop
+sudo apt-get install thunar
 
 sudo snap install spotify

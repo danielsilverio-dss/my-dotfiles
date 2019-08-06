@@ -1,0 +1,7 @@
+#!/bin/sh
+
+FOO=cat general-health-checker.sh
+
+echo $FOO
+
+#dev-meta "general-health-checker"
